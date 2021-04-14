@@ -1,14 +1,15 @@
-/* police */
-font-family: 'Architects Daughter', cursive;
-/* fin police */
-
+/*font-family: 'Architects Daughter', cursive;*/
+html{
+    height: 100%;
+}
 body{
     height: 100%;
-    width: 100%;
 }
 header{
     height: 100%;
     width: 100%;
     background-image:url(/img/littleitalyweb.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     display: flex;
 }
