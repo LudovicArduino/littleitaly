@@ -1,5 +1,9 @@
+/* police */
+font-family: 'Architects Daughter', cursive;
+/* fin police */
+
 header{
     height: 100%;
     width: 100%;
-    background-image:url(/img/littleitalyweb.png);
+    background-image: image(/);
 }
