@@ -3,12 +3,13 @@ html{
 }
 body{
     height: 100%;
+    margin: 0;
 }
 header{
     height: 100%;
     width: 100%;
     background-image:url(/img/littleitalyweb.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
 }
