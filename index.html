@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet"> 
+    <script type="text/javascript" src="/assets/js/collapse.js"></script>
     <title>Little Italy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css">
 </head>
 
 <body>
@@ -20,17 +22,33 @@
     </nav>
 
     <main>
+        <div class="test"></div>
+        <div id="root"></div>
 
+        <button 
+          class="btn btn-primary btn__first" 
+          data-toggle="collapse"
+          data-target=".collapse.first"
+          data-text="Collapse"
+          >
+          Nos pâtes
+        </button>
+        
+    
+          <div class="block collapse first">
+            <div class="block__content">
+              ICI nos pates <br>
+              la encore <br>
+              esy oui ont fait des pates <br>
+            </div>
+          </div>
 
     </main>
-    <div class="testCol">
-        <collapse class="collapse">
-            <button type="button" class="collapsible">Voir nos pizzas</button>
-            <div class="content">
-              <p> <h1>Lorem ipsum...</h1></p>
-            </div> 
-        </collapse>
-    </div>
+
+
+
+        
+
     <footer>
 
 
@@ -39,6 +57,11 @@
     <nav id="navSecondary">
 
     </nav>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.3/js/bootstrap.js"></script>
+
 
 </body>
 

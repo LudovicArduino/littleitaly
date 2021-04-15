@@ -13,41 +13,48 @@ header{
     background-repeat: no-repeat;
     display: flex;
 }
-.testCol{
-    background-image: url(/assets/img/pizzas.png);
+main{
     height: 100%;
     width: 100%;
+    background-image: url(/assets/img/pates.png);
     background-size: cover;
 }
-.collapse{
-    display: flex;
+
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded');
+
+html,body {
+  font-family: 'Encode Sans Expanded', sans-serif; 
+  height: 100%;
+  margin: 15px;
 }
- /* Style the button that is used to open and close the collapsible content */
- .collapsible {
-    background-color: yellow;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: center;
-    outline: none;
-    font-size: 20px;
-    
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.collapse {
+  display: block;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .5s cubic-bezier(0, 1, 0, 1);
+}
+
+  .collapse.show {
+    max-height: 99em;
+    transition: max-height .5s ease-in-out;
   }
+
+
+.block {
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.616);
+  padding: 0;
+  height: 250px;
+
+}
   
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .collapsible:hover {
-    color: yellowgreen;
-  }
-  
-  /* Style the collapsible content. Note: hidden by default */
-  .content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: #f1f1f1;
-  } 
-  p{
-      color: yellowgreen;
+  .block__content {
+    border: Opx solid rgb(173, 75, 75);
+    padding: 1.5em;
+    height: 100%;
   }
