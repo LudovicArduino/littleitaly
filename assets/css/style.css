@@ -61,6 +61,58 @@ a {
 
 /* Fin du header */
 
+/* Nav barre du haut */
+.first-nav-list {
+    padding: 1rem ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.nav-item {
+    font-family: 'Architects Daughter', cursive;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    /* virer le commentaire pour valider le texte en blanc 
+    color:white;
+    */
+}
+.nav-item:first-child {
+    margin-right: auto;
+    margin-left: 2rem;
+}
+/* Nav barre du bas */
+a:link {
+    text-decoration: none;
+}
+
+.last-nav-list {
+    padding: 2rem ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.item-nav {
+    font-family: 'Architects Daughter', cursive;
+    margin-right: 3rem;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.calendar {
+    vertical-align: middle;
+}
+.phone {
+    vertical-align: middle;
+}
+.mail {
+    vertical-align: middle;
+}
+.adress {
+    vertical-align: middle;
+}
+/* Fin barre */
 
 /* MAIN */
 /* Généralités */
@@ -68,13 +120,28 @@ main {
     color: black;
 }
 
-#propos,
 #pizzas,
 #pates,
 #desserts,
 #contact {
     height: 100vh;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#propos ul {
+    margin: 0;
+}
+
+#propos {
+    height: 100vh;
+    background-size: cover;
+}
+
+#propos2 {
+    height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,17 +165,9 @@ main {
     background-image: url(/assets/img/propos.png);
 }
 
-#propos .text {
-    height: 45%;
-}
-
 /* Pizzas */
 #pizzas {
     background-image: url(/assets/img/pizzas.png);
-}
-
-#pizzas .text {
-    height: 65%;
 }
 
 /* Pâtes */
@@ -116,17 +175,9 @@ main {
     background-image: url(/assets/img/pates.png);
 }
 
-#pates .text {
-    height: 45%;
-}
-
 /* Desserts */
 #desserts {
     background-image: url(/assets/img/dessertweb.png);
-}
-
-#desserts .text {
-    height: 45%;
 }
 
 /* Contact */
@@ -137,7 +188,6 @@ main {
 
 #contact .text {
     filter: opacity(95%);
-    height: 50%;
     width: 15%;
 }
 
