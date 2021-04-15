@@ -5,6 +5,7 @@ body{
     height: 100%;
     margin: 0;
 }
+/* debut header */
 header{
     height: 100%;
     width: 100%;
@@ -35,3 +36,9 @@ h1{
 .horaires{
     margin-bottom: 0px;
 }
+a{
+    text-decoration: none;
+    font-family: 'Architects Daughter', cursive;
+    color: whitesmoke;
+}
+/* Fin du header */
