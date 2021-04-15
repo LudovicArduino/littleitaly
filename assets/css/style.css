@@ -10,6 +10,96 @@ header{
     width: 100%;
     background-image:url(/assets/img/littleitalyweb.png);
     background-size: cover;
-    background-repeat: no-repeat;
     display: flex;
+}
+
+/* MAIN */
+/* Généralités */
+main {
+    color: black;
+    font-size: x-large;
+    font-family: 'Architects Daughter', cursive;
+    height: 100%;
+}
+
+#propos,
+#pizzas,
+#pates,
+#desserts,
+#contact {
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    height: 70%;
+    width: 30%;
+    background-color: thistle;
+    border: 1px solid thistle;
+    border-radius: 25px;
+    padding: 1em;
+    filter: opacity(75%)
+}
+
+.nothing {
+    width: 50%;
+}
+
+/* A propos */
+#propos {
+    background-image: url(/assets/img/propos.png);
+}
+
+#propos .text {
+    height: 50%;
+}
+
+/* Pizzas */
+#pizzas {
+    background-image: url(/assets/img/pizzas.png);
+}
+
+/* Pâtes */
+#pates {
+    background-image: url(/assets/img/pates.png);
+}
+
+#pates .text {
+    height: 50%;
+}
+
+/* Desserts */
+#desserts {
+    background-image: url(/assets/img/dessertweb.png);
+}
+
+#desserts .text {
+    height: 45%;
+}
+
+/* Contact */
+#contact {
+    background-image: url(/assets/img/contact.jpg);
+    justify-content: space-evenly;
+}
+
+#contact .text {
+    filter: opacity(95%);
+    height: 50%;
+    width: 15%;
+}
+
+#contact input {
+    font-size: x-large;
+    background: none;
+    border: none;
+}
+
+#contact .nothing {
+    font-size: xx-large;
+    width: 17.5%;
+    margin-top: 7em;
 }
