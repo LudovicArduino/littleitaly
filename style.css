@@ -1,17 +1,10 @@
 /* Nav barre du haut */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-}
 .first-nav-list {
     padding: 1rem ;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    
+    list-style: none;
 }
 .nav-item {
     font-family: 'Architects Daughter', cursive;
@@ -27,3 +20,35 @@
     margin-left: 2rem;
 }
 /* Nav barre du bas */
+a:link {
+    text-decoration: none;
+}
+ /* Yo patron ! A mettre en blanc à la fusion ! */
+a {
+    color: black;
+}
+.last-nav-list {
+    padding: 2rem ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.item-nav {
+    font-family: 'Architects Daughter', cursive;
+    margin-right: 3rem;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.calendar {
+    vertical-align: middle;
+}
+.phone {
+    vertical-align: middle;
+}
+.mail {
+    vertical-align: middle;
+}
+.adress {
+    vertical-align: middle;
+}
