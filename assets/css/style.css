@@ -21,7 +21,7 @@ main{
 }
 
 @import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded');
-
+/* coolapse */
 html,body {
   font-family: 'Encode Sans Expanded', sans-serif; 
   height: 100%;
@@ -59,3 +59,4 @@ html,body {
     padding: 1.5em;
     height: 100%;
   }
+  /* Fin coolapse */
