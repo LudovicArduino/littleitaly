@@ -3,7 +3,7 @@ html{
     height: 100%;
 }
 body{
-    height: 100%;
+    
     margin: 0;
 }
 /* Fin structure */
@@ -145,6 +145,27 @@ main {
     margin-top: 7em;
 }
 /* fin main */
+
+.coord{
+    font-family: 'Architects Daughter', cursive;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px ;
+
+}
+.horaires{
+    margin-bottom: 0px;
+}
+a{
+    text-decoration: none;
+    font-family: 'Architects Daughter', cursive;
+    color: whitesmoke;
+}
+/* Fin du header */
+
+
 
 /* debut footer */
 #footer{
