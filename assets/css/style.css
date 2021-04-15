@@ -1,3 +1,4 @@
+/* structure */
 html{
     height: 100%;
 }
@@ -5,13 +6,48 @@ body{
     height: 100%;
     margin: 0;
 }
+/* Fin structure */
+
+/* debut header */
 header{
     height: 100%;
     width: 100%;
     background-image:url(/assets/img/littleitalyweb.png);
     background-size: cover;
     display: flex;
+    align-items: center;
 }
+#adresse{
+    margin-left: 7em;
+    height: 480px;
+    width: 300px;
+    background-color: rgba(36, 36, 36, 0.822);
+    border-radius: 30px;
+}
+h1{
+    font-family: 'Architects Daughter', cursive;
+    color: whitesmoke;
+    text-align: center;
+}
+.coord{
+    font-family: 'Architects Daughter', cursive;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px ;
+
+}
+.horaires{
+    margin-bottom: 0px;
+}
+a{
+    text-decoration: none;
+    font-family: 'Architects Daughter', cursive;
+    color: whitesmoke;
+}
+/* Fin du header */
+
 
 /* MAIN */
 /* Généralités */
@@ -104,3 +140,4 @@ main {
     width: 17.5%;
     margin-top: 7em;
 }
+/* fin main */
