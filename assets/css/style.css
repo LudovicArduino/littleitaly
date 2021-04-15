@@ -99,6 +99,10 @@ main {
     border: none;
 }
 
+#button {
+    text-align: end;
+}
+
 #contact .nothing {
     font-size: x-large;
     width: 17.5%;
