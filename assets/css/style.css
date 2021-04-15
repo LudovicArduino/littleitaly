@@ -19,10 +19,11 @@ header{
     align-items: center;
 }
 #adresse{
-    margin-left: 20px;
+    margin-left: 7em;
     height: 350px;
     width: 300px;
-    background-color: rgba(65, 33, 33, 0.822);
+    background-color: rgba(36, 36, 36, 0.822);
+    border-radius: 30px;
 }
 h1{
     font-family: 'Architects Daughter', cursive;
