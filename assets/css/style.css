@@ -146,12 +146,12 @@ main {
 }
 /* fin main */
 
+/* debut footer */
 #footer{
     height: 50%;
     width: 100%;
     background-image:url(/assets/img/footer.png);
     background-size: cover;
-    background-repeat: no-repeat;
     display: flex;
     color: rgb(255, 255, 255);
 }
@@ -174,5 +174,5 @@ a{
 .facebook{
     vertical-align: middle;
 }
- 
+ /* fin footer */
 
