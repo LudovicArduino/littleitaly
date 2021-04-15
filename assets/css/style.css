@@ -10,7 +10,6 @@ header{
     width: 100%;
     background-image:url(/assets/img/littleitalyweb.png);
     background-size: cover;
-    background-repeat: no-repeat;
     display: flex;
 }
 
@@ -26,7 +25,8 @@ main {
 #propos,
 #pizzas,
 #pates,
-#desserts {
+#desserts,
+#contact {
     height: 100%;
     background-size: cover;
     display: flex;
@@ -78,4 +78,28 @@ main {
 
 #desserts .text {
     height: 45%;
+}
+
+/* Contact */
+#contact {
+    background-image: url(/assets/img/contact.jpg);
+    justify-content: space-evenly;
+}
+
+#contact .text {
+    filter: opacity(95%);
+    height: 50%;
+    width: 15%;
+}
+
+#contact input {
+    font-size: x-large;
+    background: none;
+    border: none;
+}
+
+#contact .nothing {
+    font-size: xx-large;
+    width: 17.5%;
+    margin-top: 7em;
 }
