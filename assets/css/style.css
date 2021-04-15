@@ -17,7 +17,6 @@ header{
 /* Généralités */
 main {
     color: black;
-    font-size: x-large;
     font-family: 'Architects Daughter', cursive;
     height: 100%;
 }
@@ -35,7 +34,6 @@ main {
 }
 
 .text {
-    height: 70%;
     width: 30%;
     background-color: thistle;
     border: 1px solid thistle;
@@ -54,12 +52,16 @@ main {
 }
 
 #propos .text {
-    height: 50%;
+    height: 45%;
 }
 
 /* Pizzas */
 #pizzas {
     background-image: url(/assets/img/pizzas.png);
+}
+
+#pizzas .text {
+    height : 65%;
 }
 
 /* Pâtes */
@@ -68,7 +70,7 @@ main {
 }
 
 #pates .text {
-    height: 50%;
+    height: 45%;
 }
 
 /* Desserts */
@@ -93,13 +95,12 @@ main {
 }
 
 #contact input {
-    font-size: x-large;
     background: none;
     border: none;
 }
 
 #contact .nothing {
-    font-size: xx-large;
+    font-size: x-large;
     width: 17.5%;
     margin-top: 7em;
 }
