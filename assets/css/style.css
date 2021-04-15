@@ -210,6 +210,12 @@ main {
     background-image: url(/assets/img/contact.jpg);
     justify-content: space-evenly;
 }
+.navi{
+    position: sticky;
+}
+.first{
+    position: sticky;
+}
 
 #contact .text {
     filter: opacity(95%);
@@ -252,4 +258,10 @@ main {
 
 .facebook {
     vertical-align: middle;
+}
+.first{
+    position: sticky;
+}
+.propos{
+    position: relative;
 }
