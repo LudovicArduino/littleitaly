@@ -287,3 +287,9 @@ footer h3 {
 }
 
 /* Fin coolapse */
+
+button{
+    background-color: thistle;
+    border: none;
+    border-radius: 5px;
+}
