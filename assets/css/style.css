@@ -147,6 +147,17 @@ main {
 
 #pizzas {
     background-image: url(/assets/img/pizzas.png);
+    display: flex;
+    justify-content: space-evenly;
+}
+.nothing1{
+    width: 30%;
+    background-color: thistle;
+    border: 1px solid thistle;
+    border-radius: 25px;
+    padding: 1em;
+    filter: opacity(75%)
+    
 }
 
 #pates {
@@ -155,12 +166,24 @@ main {
 
 #desserts {
     background-image: url(/assets/img/dessertweb.png);
+    display: flex;
+    justify-content: space-evenly;
+}
+.nothing3{
+    width: 20%;
+    background-color: thistle;
+    border: 1px solid thistle;
+    border-radius: 25px;
+    padding: 1em;
+    filter: opacity(75%)
+    
 }
 
 /* Main-Contact */
 #contact {
     background-image: url(/assets/img/contact.jpg);
     justify-content: space-evenly;
+    
 }
 
 #contact .text {
