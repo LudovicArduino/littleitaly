@@ -18,6 +18,7 @@ h1 {
     color: whitesmoke;
     text-align: center;
 }
+
 /* Fin structure */
 
 /* Début Header */
@@ -115,16 +116,32 @@ main {
     color: black;
 }
 
-#propos,
-#pizzas,
-#pates,
-#desserts,
-#contact {
+#propos {
     height: 100vh;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#propos{
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#pizzas,
+#pates,
+#desserts {
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .text {
@@ -138,6 +155,13 @@ main {
 
 .nothing {
     width: 50%;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 /* Main-Parts */
@@ -161,6 +185,10 @@ main {
 #contact {
     background-image: url(/assets/img/contact.jpg);
     justify-content: space-evenly;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
 }
 
 #contact .text {
@@ -227,6 +255,48 @@ footer h3 {
     background: url(/assets/img/beton_noir.jpg);
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
-    color:whitesmoke;
+    color: whitesmoke;
     padding: 2em;
+}
+
+/* Collapse */
+.collapse {
+    display: block;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height .5s cubic-bezier(0, 1, 0, 1);
+}
+
+.collapse.show {
+    max-height: 99em;
+    transition: max-height .5s ease-in-out;
+}
+
+
+.block {
+    margin-top: 10px;
+    background-image: url(/assets/img/fondcollapse.png);
+    background-size: cover;
+    padding: 0;
+    height: 250px;
+    background-image: url(/assets/img/fondcollapse.jpg);
+
+}
+
+.block__content {
+    border: Opx solid rgb(173, 75, 75);
+    padding: 1.5em;
+    height: 100%;
+}
+
+.testcol {
+    text-align: center;
+}
+
+/* Fin coolapse */
+
+button{
+    background-color: thistle;
+    border: none;
+    border-radius: 5px;
 }
