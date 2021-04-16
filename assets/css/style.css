@@ -213,3 +213,43 @@ main {
     padding: 1px;
     background-color: rgba(44, 29, 29, 0.719);
 }
+
+/* coolapse */
+html,body {
+  font-family: 'Encode Sans Expanded', sans-serif; 
+  height: 100%;
+  margin: 15px;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.collapse {
+  display: block;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .5s cubic-bezier(0, 1, 0, 1);
+}
+
+  .collapse.show {
+    max-height: 99em;
+    transition: max-height .5s ease-in-out;
+  }
+
+
+.block {
+  margin-top: 10px;
+  background-image: url(/assets/img/fondcollapse.png);
+  background-size: cover;
+  padding: 0;
+  height: 250px;
+
+}
+  
+  .block__content {
+    border: Opx solid rgb(173, 75, 75);
+    padding: 1.5em;
+    height: 100%;
+  }
+  /* Fin coolapse */
