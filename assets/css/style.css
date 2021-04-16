@@ -230,3 +230,38 @@ footer h3 {
     color:whitesmoke;
     padding: 2em;
 }
+
+.collapse {
+    display: block;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height .5s cubic-bezier(0, 1, 0, 1);
+  }
+  
+    .collapse.show {
+      max-height: 99em;
+      transition: max-height .5s ease-in-out;
+    }
+  
+  
+  .block {
+    margin-top: 10px;
+    background-image: url(/assets/img/fondcollapse.png);
+    background-size: cover;
+    padding: 0;
+    height: 250px;
+  
+  }
+    
+    .block__content {
+      border: Opx solid rgb(173, 75, 75);
+      padding: 1.5em;
+      height: 100%;
+    }
+    /* Fin coolapse */
+  
+    .testcol{
+      background-color: blue;
+      width: 100%;
+      height: 100%;
+    }
