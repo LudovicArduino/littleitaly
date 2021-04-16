@@ -184,13 +184,14 @@ main {
 }
 
 /* Fin Main */
-
+/* Footer */
 #footer {
     height: 50%;
     background-image: url(/assets/img/footer.png);
     background-size: cover;
     display: flex;
     color: white;
+    padding-bottom: 1em;
 }
 
 .footer {
@@ -201,8 +202,14 @@ main {
     align-items: center;
 }
 
-.facebook {
+footer h3 {
+    margin: 1em 0 0.5em 0;
+}
+
+#rs img {
     vertical-align: middle;
+    height: 3em;
+    width: 3em;
 }
 
 .last {
@@ -212,4 +219,14 @@ main {
     margin: 0px;
     padding: 1px;
     background-color: rgba(44, 29, 29, 0.719);
+}
+
+/* Fin footer */
+/* Mentions légales */
+#mentions {
+    background: url(/assets/img/beton_noir.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color:whitesmoke;
+    padding: 2em;
 }
