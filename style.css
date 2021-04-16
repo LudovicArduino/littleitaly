@@ -28,7 +28,7 @@ a {
     color: black;
 }
 .last-nav-list {
-    
+    background-color: black;
     padding: 2rem ;
     display: flex;
     justify-content: flex-end;
