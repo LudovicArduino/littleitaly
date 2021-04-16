@@ -124,7 +124,15 @@ main {
     align-items: center;
 }
 
-#propos,
+#propos{
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 #pizzas,
 #pates,
 #desserts {
@@ -180,7 +188,6 @@ main {
     height: 100vh;
     background-size: cover;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
