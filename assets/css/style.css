@@ -166,24 +166,24 @@ main {
 
 /* Main-Parts */
 #propos {
-    background-image: url(/assets/img/propos.png);
+    background-image: url(assets/img/propos.png);
 }
 
 #pizzas {
-    background-image: url(/assets/img/pizzas.png);
+    background-image: url(assets/img/pizzas.png);
 }
 
 #pates {
-    background-image: url(/assets/img/pates.png);
+    background-image: url(assets/img/pates.png);
 }
 
 #desserts {
-    background-image: url(/assets/img/dessertweb.png);
+    background-image: url(assets/img/dessertweb.png);
 }
 
 /* Main-Contact */
 #contact {
-    background-image: url(/assets/img/contact.jpg);
+    background-image: url(assets/img/contact.jpg);
     justify-content: space-evenly;
     height: 100vh;
     background-size: cover;
@@ -215,7 +215,7 @@ main {
 /* Footer */
 #footer {
     height: 50%;
-    background-image: url(/assets/img/footer.png);
+    background-image: url(assets/img/footer.png);
     background-size: cover;
     display: flex;
     color: white;
@@ -252,7 +252,7 @@ footer h3 {
 /* Fin footer */
 /* Mentions légales */
 #mentions {
-    background: url(/assets/img/beton_noir.jpg);
+    background: url(assets/img/beton_noir.jpg);
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke;
@@ -275,11 +275,11 @@ footer h3 {
 
 .block {
     margin-top: 10px;
-    background-image: url(/assets/img/fondcollapse.png);
+    background-image: url(assets/img/fondcollapse.png);
     background-size: cover;
     padding: 0;
     height: 250px;
-    background-image: url(/assets/img/fondcollapse.jpg);
+    background-image: url(assets/img/fondcollapse.jpg);
 
 }
 
